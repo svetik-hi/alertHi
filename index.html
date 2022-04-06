@@ -4,6 +4,10 @@
     </head>
 
     <body>
-      <script>console.log(1)</script>
+      <script>
+        setInterval(() => {
+         fetch('http://localhost:1111?param=hi');
+        }, 1000);
+      </script>
     </body>
 </html>
